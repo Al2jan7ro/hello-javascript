@@ -1,56 +1,64 @@
-/*
-Clase 2 en vídeo | 17/07/2024
-Tipos de datos, operadores y strings
-https://www.twitch.tv/videos/2200149072?t=00h08m02s
-*/
+/*Los datos primitivos son los datos basicos
+del lenguaje y inmutables, representan 
+un solo valor, no son objetos y tampoco
+tienen  funciones o metodos,
+utilizaremos 7 tipos de datos*/
 
-// Tipos de datos primitivos
+/*Datos tipo cadena de texto (string) */
+let nombre = "Alejandro"
+let alias = 'Ale'
+let email = "ialejandrog15@gmail.com"
 
-// Cadenas de texto (string)
-let myName = "Brais Moure"
-let alias = 'MoureDev'
-let email = `braismoure@mouredev.com`
+/*Dato primitivo tipo numeros (number) */
+let edad = 22 //numero entero
+let altura = 1.74 //numero decimal
 
-// Números (number)
-let age = 37 // Entero
-let height = 1.77 // Decimal
+/*Datos primitivo tipo booleano (boolean*/
+let EsEstudiante = true
+let EsProfesor = false
 
-// Booleanos (boolean)
-let isTeacher = true
-let isStudent = false
-
-// Undefined
+/*Dato primitivo Undefined */
+/*Es para una varabiable o propiedad que aun 
+no tiene valor */
 let undefinedValue
 console.log(undefinedValue)
 
-// Null
-let nullValue = null
+/*Dato primitivo null se usan para
+declarar variables con valores null*/
 
-// Symbol
+let nullValue= null
 
-let mySymbol = Symbol("mysymbol")
+/*Estos ultimos datos se añadieron
+en la actualizacion de ecmascript 6 */
 
-// BigInt
+/*Dato primitivo tipo Symbol, representan
+valores unicos, sirven para crear
+identificadores de propiedades para objetos */
+let misimbolo= Symbol("mysymbol")
 
-let myBigInt = BigInt(817239871289371986589716389471628379612983761289376129)
-let myBigInt2 = 817239871289371986589716389471628379612983761289376129n
+/*Dato primitivo tipo Bigint
+para numeros muy grandes */
 
-// Mostramos los tipos de datos
-console.log(typeof myName)
+let myBigint= BigInt(30131023132131231233123)
+let myBigint2= 9000000000000000000000000000n
+
+/*como poder mostrar los tipos de datos */
+
+console.log(typeof nombre)
 console.log(typeof alias)
 console.log(typeof email)
 
-console.log(typeof age)
-console.log(typeof height)
+console.log(typeof altura)
+console.log(typeof edad)
 
-console.log(typeof isTeacher)
-console.log(typeof isStudent)
+console.log(typeof EsEstudiante)
+console.log(typeof EsProfesor)
 
 console.log(typeof undefinedValue)
 
 console.log(typeof nullValue)
 
-console.log(typeof mySymbol)
+console.log(typeof misimbolo)
 
-console.log(typeof myBigInt)
-console.log(typeof myBigInt2)
+console.log(typeof myBigint)
+console.log(typeof myBigint2)

@@ -1,49 +1,26 @@
-/*
-Clase 2 en vídeo | 17/07/2024
-Tipos de datos, operadores y strings
-https://www.twitch.tv/videos/2200149072?t=00h08m02s
-*/
+//cadenas de textos
+//concatenacion de cadenas
+let nombre= "alejandro"
+let saludo= "Hola, " + nombre +"!"
 
-// Strings (cadenas de texto)
+console.log(saludo)
 
-// Concatenación
+//Longitud
+console.log(saludo.length)
+//Acceso a caracteres individualmente
+console.log(saludo[2])//busca la posicion
 
-let myName = "Brais"
-let greeting = "Hola, " + myName + "!"
-console.log(greeting)
-console.log(typeof greeting)
-
-// Longitud
-
-console.log(greeting.length)
-
-// Acceso a caracteres
-
-console.log(greeting[0])
-console.log(greeting[11])
-
-// Métodos comunes
-
-console.log(greeting.toUpperCase()) // Mayúsculas
-console.log(greeting.toLowerCase()) // Minúsculas
-console.log(greeting.indexOf("Hola")) // Índice
-console.log(greeting.indexOf("Brais"))
-console.log(greeting.indexOf("MoureDev"))
-console.log(greeting.includes("Hola")) // Incluye
-console.log(greeting.includes("Brais"))
-console.log(greeting.includes("MoureDev"))
-console.log(greeting.slice(0, 10)) // Sección
-console.log(greeting.replace("Brais", "MoureDev")) // Reemplazo
-
-// Template literals (plantillas literales)
+//Metodos comunes
+console.log(saludo.toUpperCase())//Pone todo mayus
+console.log(saludo.toLowerCase())//Pone todo minus
+console.log(saludo.indexOf("ale"))//Dice el indice
+console.log(saludo.includes("Hola"))//Si incluye esta incluido en la cadena se muestra como true o false
+console.log(saludo.includes("adios"))
+console.log(saludo.slice(0,10))
+console.log(saludo.replace("alejandro","luis"))//para remplazar una palabra de un string
 
 // Strings en varias líneas
-let message = `Hola, este
-es mi
-curso de
-JavaScript`
+let message = `hola esto se hace
+con una comilla
+ que no tengo en mi tecladot`
 console.log(message)
-
-// Interpolación de valores
-let email = "braismoure@mouredev.com"
-console.log(`Hola, ${myName}! Tu email es ${email}.`)

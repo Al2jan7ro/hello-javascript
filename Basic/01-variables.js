@@ -1,30 +1,34 @@
-/*
-Clase 1 en vídeo | 10/07/2024
-Introducción, instalación, hola mundo y variables
-https://www.twitch.tv/videos/2194200202?t=00h14m43s
-*/
+//formas de usar variables
 
-// var
+//podemos usar var, let, conts
+/* Los nombres de las variables 
+deben tener 1 mayus y deben ser a conveniencia*/
 
-var helloWorld = "¡Hola, JavaScript!"
-console.log(helloWorld)
+/*Ejemplo con var, es el primer tipo de varaible
+este tipo de varaible no es recomendado, da problemas*/
 
-helloWorld = "¡Hola de nuevo, JavaScript!"
-console.log(helloWorld)
+var helloWord = "HOLA, javascript"
+//Llmamos en la consola la variable
+console.log(helloWord)
 
-// let
+//De esta forma se pueden cambiar los valores:
 
-let helloWorld2 = "¡Hola, JavaScript 2!"
-console.log(helloWorld2)
+helloWord ="Adios, javascript"
+console.log(helloWord)
 
-helloWorld2 = "¡Hola de nuevo, JavaScript 2!"
-console.log(helloWorld2)
+/*let y conts son los recomendados*/
 
-// const
+/*Las variables let se hacen igual
+pero solo funcionan dentro de bloques
+var se puede usar en todos los sitios*/
 
-const helloWorld3 = "¡Hola, JavaScript 3!"
-console.log(helloWorld3)
+let helloWord2 ="Nueva forma de varaible"
+console.log(helloWord2)
 
-// Error
-// helloWorld3 = "¡Hola de nuevo, JavaScript 2!"
-// console.log(helloWorld3)
+/*conts hace lo mismo que las demas
+pero no se puede reasignar porque es una constante*/
+
+
+const helloWord3 = "Hola esta es la constante"
+console.log(helloWord3)
+

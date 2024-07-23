@@ -1,66 +1,62 @@
-/*
-Clase 2 en vídeo | 17/07/2024
-Tipos de datos, operadores y strings
-https://www.twitch.tv/videos/2200149072?t=00h08m02s
-*/
+//operadores
 
-// Operadores Aritméticos
+//Operadores aritmeticos
+console.log(5+10) //suma
 
+//suma con variables
 let a = 5
 let b = 10
+console.log(a+b)
 
-console.log(a + b) // Suma
-console.log(a - b) // Resta
-console.log(a * b) // Multiplicación
-console.log(a / b) // División
+console.log(a-b)//resta
+console.log(a*b)//multiplicacion
+console.log(a/b)//División
 
-console.log(a % b) // Módulo
-console.log(a ** b) // Exponente
+console.log(a%b)//Modulo
+console.log(a**b)//Exponencial
 
-a++ // Incremento
+//Incremento
+a++
 console.log(a)
-
-b-- // Decremento
+//Decremento
+b--
 console.log(b)
 
-// Operadores de asignacion
+//Operadores de asignacion
+let myvariable = 2 //simbolo igual
+console.log(myvariable)
 
-let myVariable = 2
-console.log(myVariable)
-myVariable += 2 // Suma con asignación
-console.log(myVariable)
+myvariable +=2 //Se suma con el mismo valor
+console.log(myvariable)
+//Variaciones:
+myvariable -=2
+myvariable *=2
+myvariable /=2
+myvariable %=2
+myvariable **=2
 
-myVariable -= 2 // Resta con asignación
-myVariable *= 2 // Multiplicación con asignación
-myVariable /= 2 // División con asignación
-myVariable %= 2 // Módulo con asignación
-myVariable **= 2 // Exponente con asignación
+//Operadores de comparacion
+//Estos resultados siempre son booleanos
+console.log(a>b)
+console.log(a<b) 
+console.log(a>=b) 
+console.log(a<=b) 
+console.log(a==b)
+console.log(a==5)//a se incremento y ahora vale 6
+console.log(a==a)
+console.log(a===6)//Igualdad por identidad, compara tipo y valor
+console.log(a==="6")//cadena de texto no es igual
+console.log(a!=6)
+console.log(a!=="6")
 
-// Operadores de comparación
-
-console.log(a > b) // Mayor que
-console.log(a < b) // Menor que
-console.log(a >= b) // Mayor o igual que
-console.log(a <= b) // Menor o igual que
-console.log(a == b) // Igualdad por valor
-console.log(a == 6)
-console.log(a == "6")
-console.log(a == a)
-console.log(a === a) // Igualdad por identidad (por tipo y valor) o igualdad estricta
-console.log(a === 6)
-console.log(a === "6")
-console.log(a != 6) // Desigualdad por valor
-console.log(a !== "6") // Desigualdad por identidad (por tipo y valor) o desigualdad estricta
-console.log(0 == false)
-console.log(1 == false)
-console.log(2 == false)
-console.log(0 == "")
-console.log(0 == " ")
-console.log(0 == '')
-console.log(0 == "Hola")
-console.log(0 === "")
-console.log(undefined == null)
-console.log(undefined === null)
+//cosas peculiares
+console.log(0==false)
+console.log(1==false)
+console.log(1==true)
+console.log(0=="")
+console.log(0=="hola")
+console.log(undefined==null)
+console.log(undefined===null)
 
 /*
 Truthy values (valores verdaderos)
@@ -104,7 +100,8 @@ console.log(!false)
 console.log(!(5 > 10 && 15 > 20))
 console.log(!(5 > 10 || 15 > 20))
 
-// Operadores ternarios
+//Operadores ternarios
+const estalloviendo = false
 
-const isRaining = false
-isRaining ? console.log("Está lloviendo") : console.log("No está lloviendo")
+
+estalloviendo ? console.log("Esta lloviendo ahora mismo"): console.log("no esta lloviendo")
