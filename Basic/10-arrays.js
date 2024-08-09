@@ -27,7 +27,7 @@ miarreglo2 = new Array(3)
 miarreglo2[2]= "Ale"
 console.log("forma compleja",miarreglo2)
 
-// de esta forma deteta solo los espacios
+// de esta forma detecta solo los espacios
 miarreglo = []
 miarreglo[3] = "ale"
 miarreglo[5] = "2024"
@@ -96,7 +96,7 @@ console.log(nuevoarreglo)
 
 //splice 
 /*splice sirve para elminar
-indicesa especifocs de un arerglo
+indices especificos de un arerglo
 o tambien para modificar los indices */
 miarreglo3.push("madrid","ronaldo")
 console.log("arreglo para splice:",miarreglo3)

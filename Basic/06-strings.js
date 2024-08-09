@@ -24,3 +24,9 @@ let message = `hola esto se hace
 con una comilla
  que no tengo en mi tecladot`
 console.log(message)
+
+//Interpolacion de valores
+
+let email ="ialejandrog15@gmail.com"
+
+console.log(`hola, ${nombre}! tu email es ${email}`)
