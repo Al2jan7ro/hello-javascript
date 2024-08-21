@@ -52,6 +52,7 @@ let persona2 = {
     nombre: 'Juan',
     apellido: 'Perez',
     edad: 30,
+
     direccion: {
         calle: 'calle 1',
         numero: 1
@@ -76,6 +77,8 @@ console.log(myArray3)
 
 
 // Combinacion de elementos de array
+
+console.log("combinacion de objetos")
 let myArray4 = [...miarray, ...myArray3, ...myArray2]
 console.log(myArray4)
 
