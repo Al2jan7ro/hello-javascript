@@ -7,10 +7,10 @@ utilizaremos 7 tipos de datos*/
 /*Datos tipo cadena de texto (string) */
 let nombre = "Alejandro"
 let alias = 'Ale'
-let email = "ialejandrog15@gmail.com"
+let email = "yankee@gmail.com"
 
 /*Dato primitivo tipo numeros (number) */
-let edad = 22 //numero entero
+let edad = 25 //numero entero
 let altura = 1.74 //numero decimal
 
 /*Datos primitivo tipo booleano (boolean*/
