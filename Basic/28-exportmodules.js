@@ -41,6 +41,8 @@ export class Circle {
         return 2 * Math.PI * this.radius
     }
 }
+
+
 const c = new Circle(5)
 console.log(c.area())
 
